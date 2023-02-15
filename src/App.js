@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from 'react';
 
 function App() {
   let title = 'This is the new TCRI react site!'
   return (
     <div className="App">
-      <h1>{title}</h1>
+      <Router>
+        <Header />
+      </Router>
     </div>
   );
 }

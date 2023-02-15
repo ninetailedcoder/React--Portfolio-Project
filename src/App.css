@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  padding: 30px;
+    margin: 0%;
+    background-image: linear-gradient(to right, #231f20, #ad974f, #8e793e);
+    min-width: 100%;
+}
+
+.header .btn{
+  color: #ad974f;
+}
