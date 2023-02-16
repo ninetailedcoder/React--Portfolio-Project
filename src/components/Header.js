@@ -7,7 +7,7 @@ const Header = () => {
     <Container className="header rounded">
       <Row>
         <Col md="3">
-            <img src={logo} alt='Company logo'/>
+          <a href="/"><img src={logo} alt='Company logo'/></a>
         </Col>
         <Col className="text-center mt-5" md="9">
           <Card className="bg-transparent border-0">
@@ -25,8 +25,8 @@ const Header = () => {
         </Col>
       </Row>
       <Row>
-        <Col md="8" className="d-flex justify-content-end">
-          <Link to="/" className="btn bg-dark ">Donations</Link>
+        <Col md="12" className="text-center float-end">
+          <Link to="/" className="btn bg-dark">Donations</Link>
         </Col>
       </Row>
     </Container>

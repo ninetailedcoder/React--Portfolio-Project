@@ -46,6 +46,8 @@
 
 .header .btn{
   color: #ad974f;
+  max-width: 50%;
+  margin-left: 25%;
 }
 
 .footer {
@@ -57,3 +59,22 @@
   color:#231f20;
   text-decoration: none;
 }
+
+.footer .links {
+  display: inline-block;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header .btn{
+    margin-left: auto;
+  };
+  
+}
+
+@media screen and (max-width: 767px) {
+  .blockquote-footer{
+    color: #231f20;
+  };
+}
+
