@@ -7,7 +7,7 @@ const Header = () => {
     <Container className="header rounded">
       <Row>
         <Col md="3">
-            <img src={logo} alt='Company log'/>
+            <img src={logo} alt='Company logo'/>
         </Col>
         <Col className="text-center mt-5" md="9">
           <Card className="bg-transparent border-0">

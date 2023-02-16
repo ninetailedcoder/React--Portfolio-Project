@@ -47,3 +47,13 @@
 .header .btn{
   color: #ad974f;
 }
+
+.footer {
+  background-color: #d7d8da;
+  max-width: 100%;
+}
+
+.footer a {
+  color:#231f20;
+  text-decoration: none;
+}
