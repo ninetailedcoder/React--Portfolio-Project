@@ -74,9 +74,29 @@
   margin-top: 2%;
 }
 
+.donate p{
+  color: #eaeaea;
+  padding-top: 20%;
+}
+
+.donate .btn{
+  background-color: #231f20;
+  color: #ad974f;
+}
+
 .volunteer {
   background-image: linear-gradient(to right, #231f20, #8e793e, #ad974f, #eaeaea);
   margin-top: 2%;
+}
+
+.volunteer .btn {
+  background-color: #231f20;
+  color: #ad974f;
+}
+
+.volunteer p{
+  color: #eaeaea;
+  padding-top: 30%;
 }
 
 .volunteers {
@@ -102,8 +122,25 @@
 .peopleServed {
   background-color: #ad974f;
   color: #231f20;
+  padding: 2%, auto;
 }
 
+.midsec{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.midsec .img1 {
+  border-radius: 25px !important;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.midsec .img2 {
+  border-radius: 25px !important;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
 @media screen and (max-width: 767px) {
   .header .btn{

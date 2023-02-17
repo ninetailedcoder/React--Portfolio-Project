@@ -3,10 +3,11 @@ import volunteers from '../app/img/volunteers.png'
 import food from '../app/img/Donated food.png'
 import people from '../app/img/people.png'
 import served from '../app/img/served.png'
-
+import formula from '../app/img/formula.png'
+import groupPhoto from '../app/img/group photo.png'
 const HomePage = () =>{
     return(
-        <Container>
+        <Container className="midsec">
             <Row>
                 <Col className="helpedRaise rounded">
                     <i className="fa-solid fa-people-group fa-xl"/>
@@ -28,10 +29,14 @@ const HomePage = () =>{
                     <img className="img img-fluid rounded" src={served} alt='serving people image' /></Col>
             </Row>
             <Row className="donate rounded">
-                <Col><h3>row 2</h3></Col>
+                <Col><img className="img1 img-fluid rounded" src={formula} /> </Col>
+                <Col><p>Your contribution helps buy tents, tables, fresh meat, and much more! Consider making a donation today. Every dollar counts.</p><a className="btn rounded-circle" type="btn-primary">Donate</a></Col>
             </Row>
             <Row className="volunteer rounded">
-                <Col><h3>row 3</h3></Col>
+                <Col><p>We could not succeed without the generous time of all of our volunteers. We have people driving in from over an hour away to help out. Want to donate your time? Please contact us!</p><a className="btn rounded-circle" type="btn-primary">volunteer</a></Col>
+                <Col> 
+                    <img className="img2 img-fluid rounded" src={groupPhoto} />
+                </Col>
             </Row>
         </Container>
     );
