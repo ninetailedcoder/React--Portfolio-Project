@@ -1,5 +1,5 @@
 import { Col,Row,Container } from "reactstrap";
-
+import { NavLink } from "react-router-dom";
 const Footer = () =>{
     return (
         <Container className="footer">
@@ -7,9 +7,15 @@ const Footer = () =>{
                 <Col xs='4'>
                     <h5>Links</h5>
                         <ul className="links list-group list-unstyled">
-                            <a href="/"><li>Home</li></a>
-                            <a href="/"><li>About</li></a>
-                            <a href="/"><li>Contact</li></a>
+                            <NavLink className='nav-link' to='/'>
+                                <li>Home</li>
+                            </NavLink>
+                            <NavLink className='nav-link' to='/about'>
+                                <li>About</li>
+                            </NavLink>
+                            <NavLink className='nav-link' to='/contact'>
+                                <li>Contact</li>
+                            </NavLink>
                         </ul>
                 </Col>
                 <Col xs='4'>

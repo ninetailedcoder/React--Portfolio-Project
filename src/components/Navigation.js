@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Nav,NavItem,Navbar,Collapse,NavbarToggler,NavLink,NavbarBrand } from "reactstrap";
+import { Nav,NavItem,Navbar,Collapse,NavbarToggler,NavbarBrand } from "reactstrap";
+import { NavLink } from "react-router-dom";
 import React from "react";
 
 const Navigation = () => {
