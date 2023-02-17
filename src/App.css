@@ -69,6 +69,42 @@
   color: #ad974f;
 }
 
+.donate{
+  background-image: linear-gradient(to right, #eaeaea, #ad974f, #8e793e, #231f20);
+  margin-top: 2%;
+}
+
+.volunteer {
+  background-image: linear-gradient(to right, #231f20, #8e793e, #ad974f, #eaeaea);
+  margin-top: 2%;
+}
+
+.volunteers {
+  background-color: #231f20;
+  color: #8e793e;
+}
+
+.volunteers .img{
+  max-height: 30%;
+}
+
+.helpedRaise{
+  background-color: #eaeaea;
+  color: #231f20;
+
+}
+
+.foodDonated {
+  background-color: #8e793e;
+  color: #231f20;
+}
+
+.peopleServed {
+  background-color: #ad974f;
+  color: #231f20;
+}
+
+
 @media screen and (max-width: 767px) {
   .header .btn{
     margin-left: auto;
