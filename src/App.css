@@ -148,6 +148,15 @@
   color: #8e793e;
 }
 
+.factsheader{
+  background-color: #8e793e;
+  color: #231f20;
+}
+
+.factscard{
+  background-color: #eaeaea;
+}
+
 @media screen and (max-width: 767px) {
   .header .btn{
     margin-left: auto;
