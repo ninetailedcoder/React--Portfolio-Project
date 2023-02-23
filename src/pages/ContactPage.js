@@ -1,12 +1,17 @@
 import { Field, Formik, Form } from "formik";
 import { Button, Col, Container, FormGroup, Label, Row } from "reactstrap";
+import CaroselSpin from "../components/CaroselSpin";
 
 const ContactPage = () => {
   return (
     <Container>
       <Row>
-        <Col xs='12'>
+        <CaroselSpin/>
+      </Row>
+      <Row>
+        <Col className="contactformhead rounded" xs='12'>
           <h2>Message Us!</h2>
+          <hr/>
         </Col>
         <Col xs='12'>
           <Formik
@@ -76,7 +81,7 @@ const ContactPage = () => {
                 </Col>
               </FormGroup>
               <FormGroup row>
-                <Col>
+                <Col md={{size: 10, offset: 2}} className='d-flex justify-items-start'>
                   <Button type='submit' color="primary">Send Message</Button>
                 </Col>
               </FormGroup>
