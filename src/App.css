@@ -96,7 +96,7 @@
 
 .volunteer p{
   color: #eaeaea;
-  padding-top: 30%;
+  padding-top: 25%;
 }
 
 .volunteers {
@@ -105,7 +105,7 @@
 }
 
 .volunteers .img{
-  max-height: 30%;
+  max-height: 50%;
 }
 
 .helpedRaise{
@@ -130,10 +130,9 @@
   margin-bottom: 2%;
 }
 
+
 .midsec .img1 {
   border-radius: 25px !important;
-  padding-top: 2%;
-  padding-bottom: 2%;
 }
 
 .midsec .img2 {
