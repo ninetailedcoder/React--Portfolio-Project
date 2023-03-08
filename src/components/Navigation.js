@@ -10,6 +10,7 @@ const Navigation = () => {
   return (
     <Navbar color="black" dark expand="md" sticky="top">
       <NavbarBrand className='navigationtxt' href="/">Navigation</NavbarBrand>
+      <Link to='/merch'><i className="text-light fa fa-cart-shopping fa-lg"/></Link>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar>
         <Nav className="ms-auto" navbar>
