@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Nav, NavItem, Navbar, Collapse, NavbarToggler, NavbarBrand, NavLink, Modal, ModalHeader, ModalBody, ModalFooter, Form, FormGroup, Label, Input, Button } from "reactstrap";
+import { Nav, NavItem, Navbar, Collapse, NavbarToggler, NavbarBrand } from "reactstrap";
 import React from "react";
 import { Link } from "react-router-dom";
 import LoginModal from "./loginModal";
@@ -10,7 +10,6 @@ const Navigation = () => {
   return (
     <Navbar color="black" dark expand="md" sticky="top">
       <NavbarBrand className='navigationtxt' href="/">Navigation</NavbarBrand>
-      <Link to='/merch'><i className="text-light fa fa-cart-shopping fa-lg"/></Link>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar>
         <Nav className="ms-auto" navbar>
@@ -27,6 +26,11 @@ const Navigation = () => {
           <NavItem>
             <Link className="nav-link" to="/contact">
               <i className="fa fa-address-card fa-lg" /> Contact
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link className="nav-link" to="/merch">
+              <i className="fa-solid fa-store fa-lg" /> Merch
             </Link>
           </NavItem>
           <NavItem>

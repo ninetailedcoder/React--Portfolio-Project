@@ -1,10 +1,7 @@
-import { Container } from "reactstrap";
-const merchPage = () => {
+const MerchPage = () => {
   return (
-    <Container>
-            <h1>Merchendice</h1>
-    </Container>
-  );
+      <h1>Merchendice</h1>
+  )
 };
 
-export default merchPage;
+export default MerchPage;

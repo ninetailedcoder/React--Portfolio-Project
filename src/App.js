@@ -7,7 +7,7 @@ import Navigation from './components/Navigation';
 import HomePage from './pages/homePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import merchPage from './pages/merchPage';
+import MerchPage from './pages/MerchPage';
 function App() {
   return (
     <div className="App">
@@ -17,7 +17,7 @@ function App() {
         <Route path='/' element={<HomePage/>} />
         <Route path='about' element={<AboutPage/>} />
         <Route path='contact' element={<ContactPage/>} />
-        <Route path='merch' element={<merchPage/>} />
+        <Route path='merch' element={<MerchPage/>} />
       </Routes>
       <Footer />
     </div>
