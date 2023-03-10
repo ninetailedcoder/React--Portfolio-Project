@@ -5,6 +5,7 @@ import people from '../app/img/people.png'
 import served from '../app/img/served.png'
 import formula from '../app/img/formula.png'
 import groupPhoto from '../app/img/group photo.png'
+import { NavLink } from "react-router-dom";
 const HomePage = () =>{
     return(
         <Container className="midsec">
@@ -33,7 +34,7 @@ const HomePage = () =>{
                 <Col className="pb-2"><p>Your contribution helps buy tents, tables, fresh meat, and much more! Consider making a donation today. Every dollar counts.</p><a className="btn rounded-circle" type="btn-primary">Donate</a></Col>
             </Row>
             <Row className="volunteer rounded">
-                <Col className="pb-2"><p>We could not succeed without the generous time of all of our volunteers. We have people driving in from over an hour away to help out. Want to donate your time? Please contact us!</p><a className="btn rounded-circle" type="btn-primary">volunteer</a></Col>
+                <Col className="pb-2"><p>We could not succeed without the generous time of all of our volunteers. We have people driving in from over an hour away to help out. Want to donate your time? Please contact us!</p><NavLink to='/contact' className="btn btn-navlink rounded-circle nav-link" type="btn-primary">volunteer</NavLink></Col>
                 <Col className="pt-5 pt-md-2"> 
                     <img className="img2 img-fluid rounded" src={groupPhoto} />
                 </Col>

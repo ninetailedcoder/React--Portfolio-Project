@@ -20,8 +20,8 @@ const Footer = () =>{
                 </Col>
                 <Col xs='4'>
                     <h5>Follow us</h5>
-                    <a className='btn btn-social-icon btn-instagram' href='https://www.instagram.com/twincitiesrelief/?hl=en'><i className='fa fa-instagram' /></a>
-                    <a className='btn btn-social-icon btn-facebook' href='https://www.facebook.com/TwinCitiesRelief'><i className='fa fa-facebook'/></a>                
+                    <a className='btn btn-social-icon btn-instagram' target='_blank' href='https://www.instagram.com/twincitiesrelief/?hl=en'><i className='fa fa-instagram' /></a>
+                    <a className='btn btn-social-icon btn-facebook' target='_blank' href='https://www.facebook.com/TwinCitiesRelief'><i className='fa fa-facebook'/></a>                
                 </Col>
                 <Col xs='4'>
                     <a role='button' className='btn btn-link' href='tel:+16123641129'><i className='fa fa-phone'/> +1 612-364-1129</a><br />

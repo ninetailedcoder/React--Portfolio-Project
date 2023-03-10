@@ -37,9 +37,9 @@ const Header = () => {
       </Row>
       <Row>
         <Col md="12" className="text-center float-end">
-          <Link to="/" className="btn bg-dark">
+          <a href="https://donorbox.org/test-orginization" target='_blank' className="btn bg-dark">
             Donations
-          </Link>
+          </a>
         </Col>
       </Row>
     </Container>
