@@ -25,7 +25,10 @@ Javascript
 
 React
 
-Google Cloud Platform
+Google Cloud Platformf
+
+To run on your local machine:
+------------------------------
 
 git clone https://github.com/ninetailedcoder/React--Portfolio-Project.git
 
