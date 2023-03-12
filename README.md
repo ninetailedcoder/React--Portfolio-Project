@@ -25,7 +25,7 @@ Javascript
 
 React
 
-Google Cloud Platformf
+Google Cloud Platform
 
 To run on your local machine:
 ------------------------------
